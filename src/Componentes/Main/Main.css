@@ -1,0 +1,17 @@
+/* Main.css */
+
+main {
+    background: linear-gradient(to right, #0abab5, #20d3d2);
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  main h2 {
+    color: #343a40;
+    font-size: 1.5em;
+  }
+  
+  main p {
+    color: #6c757d;
+  }
+  

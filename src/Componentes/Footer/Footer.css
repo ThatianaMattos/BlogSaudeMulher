@@ -1,0 +1,26 @@
+/* Footer.css */
+
+footer img {
+    width: 100px; /* Ajuste a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+footer {
+    background-color: #FFD1DC; /* Cor de fundo do rodapé em tom pastel de rosa */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    text-align: center; /* Alinhamento do texto no centro */
+  }
+  
+  footer p {
+    color: #343a40; /* Cor do texto do parágrafo */
+  }
+  
+  footer a {
+    color: #6c757d; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado dos links */
+  }
+  
+  footer a:hover {
+    color: #0abab5; /* Cor do texto do link quando o mouse passa sobre ele */
+  }
+  
