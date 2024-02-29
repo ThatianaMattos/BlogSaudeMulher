@@ -1,17 +1,16 @@
 /* Header.css */
 
 header {
-    background-color: #0abab5; /* Cor de fundo do cabeçalho */
-    padding: 20px; /* Espaçamento interno do cabeçalho */
-    text-align: center; /* Alinhamento do texto no centro */
-  }
-  
-  header h1 {
-    color: #ffffff; /* Cor do texto do título */
-    font-size: 2em; /* Tamanho da fonte do título */
-  }
-  
-  header p {
-    color: #ffffff; /* Cor do texto do parágrafo */
-  }
-  
+  background-color: #0abab5; /* Cor de fundo do cabeçalho */
+  padding: 20px; /* Espaçamento interno do cabeçalho */
+  text-align: center; /* Alinhamento do texto no centro */
+}
+
+header h1 {
+  color: #ffffff; /* Cor do texto do título */
+  font-size: 2em; /* Tamanho da fonte do título */
+}
+
+header p {
+  color: #ffffff; /* Cor do texto do parágrafo */
+}

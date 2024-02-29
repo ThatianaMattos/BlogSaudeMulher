@@ -6,23 +6,21 @@ import imagem from './mulher3.jpg';
 
 function Footer() {
   return (
-    <footer>
-      <img src="src\Componentes\Footer\mulher3.jpg" alt="mulherautocuidado" />
-      <p>© 2024 Saúde da Mulher. Todos os direitos reservados.</p>
-      <p>Contato: thatianamattos25@gmail.com</p>
-      <p>Siga-nos nas redes sociais!</p>
-      <a href="https://www.linkedin.com/in/thatiana-mattos" target="_blank" rel="noopener noreferrer">
-  <FontAwesomeIcon icon={faLinkedin} /> 
-</a>
-<a href="https://www.instagram.com/thatiana33/" target="_blank" rel="noopener noreferrer">
+    <footer id="footer">
+      <img src={imagem} alt="Mulher autocuidado" />
+      <p className="footer-text">© 2024 Saúde da Mulher. Todos os direitos reservados.</p>
+      <p className="footer-text">Contato: thatianamattos25@gmail.com</p>
+      <p className="footer-text">Siga-nos nas redes sociais!</p>
+      <a href="https://www.linkedin.com/in/thatiana-mattos" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <FontAwesomeIcon icon={faLinkedin} />
+      </a>
+      <a href="https://www.instagram.com/thatiana33/" target="_blank" rel="noopener noreferrer" className="social-icon">
         <FontAwesomeIcon icon={faInstagram} />
-    </a>
-<a href="https://www.facebook.com/THATYMATTOS82" target="_blank" rel="noopener noreferrer">
+      </a>
+      <a href="https://www.facebook.com/THATYMATTOS82" target="_blank" rel="noopener noreferrer" className="social-icon">
         <FontAwesomeIcon icon={faFacebook} />
-  </a>
-
-     
-          </footer>
+      </a>
+    </footer>
   );
 }
 

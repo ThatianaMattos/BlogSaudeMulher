@@ -1,17 +1,17 @@
-/* Main.css */
-
+/* Define os estilos para o elemento "main" */
 main {
-    background: linear-gradient(to right, #0abab5, #20d3d2);
-    padding: 20px;
-    text-align: justify;
-  }
-  
-  main h2 {
-    color: #343a40;
-    font-size: 1.5em;
-  }
-  
-  main p {
-    color: #6c757d;
-  }
-  
+  background: linear-gradient(to right, #0abab5, #20d3d2); /* Define o gradiente de cor de fundo */
+  padding: 20px; /* Adiciona espaço ao redor do conteúdo */
+  text-align: justify; /* Alinha o texto à direita */
+}
+
+/* Define os estilos para o elemento "main h2" */
+main h2 {
+  color: #343a40; /* Define a cor do texto */
+  font-size: 1.5em; /* Define o tamanho da fonte */
+}
+
+/* Define os estilos para o elemento "main p" */
+main p {
+  color: #6c757d; /* Define a cor do texto */
+}

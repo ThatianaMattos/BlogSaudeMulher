@@ -1,26 +1,34 @@
 /* Footer.css */
 
+/* Define o estilo para a tag 'img' dentro da tag 'footer' */
 footer img {
-    width: 100px; /* Ajuste a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-  }
-  
+  /* Define a largura da imagem como 100px */
+  width: 100px;
+  /* Mantém a proporção da imagem ao alterar o tamanho */
+  height: auto;
+}
+
+/* Estilo do rodapé */
 footer {
-    background-color: #FFD1DC; /* Cor de fundo do rodapé em tom pastel de rosa */
-    padding: 20px; /* Espaçamento interno do rodapé */
-    text-align: center; /* Alinhamento do texto no centro */
-  }
-  
-  footer p {
-    color: #343a40; /* Cor do texto do parágrafo */
-  }
-  
-  footer a {
-    color: #6c757d; /* Cor do texto do link */
-    text-decoration: none; /* Remove o sublinhado dos links */
-  }
-  
-  footer a:hover {
-    color: #0abab5; /* Cor do texto do link quando o mouse passa sobre ele */
-  }
-  
+  background-color: #FFD1DC; /* Cor de fundo do rodapé em tom pastel de rosa */
+  padding: 20px; /* Espaçamento interno do rodapé */
+  text-align: center; /* Alinhamento do texto no centro */
+}
+
+/* Estilo do parágrafo dentro do rodapé */
+footer p {
+  color: #343a40; /* Cor do texto do parágrafo */
+}
+
+/* Estilo dos ícones sociais */
+footer a.social-icon {
+  color: #6c757d;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block; /* ou display: flex */
+}
+
+/* Estilo dos ícones sociais ao passar o mouse sobre eles */
+footer a.social-icon:hover {
+  background-color: #FFB6C1;
+}
